@@ -1,0 +1,295 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: inherit;
+    list-style: none;
+    text-decoration: none;
+    /* font-family: "Karla", sans-serif; */
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+#iconka {
+    display: none;
+}
+
+ul {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.nav-right ul li button {
+    width: 146px;
+    height: 40px;
+    background: #ffffff;
+    border: 2px solid #000000;
+}
+
+.sect {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    margin: 0 auto;
+    background-color: #3d3457;
+}
+
+.div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    margin: 0 auto;
+    background-color: #3d3457;
+}
+
+.section-left h2 {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    padding-bottom: 16px;
+    margin-top: 100px;
+
+}
+
+.section-left p {
+    color: #FFFFFF;
+    font-size: 16px;
+    width: 540px;
+    padding-bottom: 24px;
+
+
+}
+
+.section-left button {
+    width: 146px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.section-right img {
+   transform: translateY(105px);
+   
+}
+.section-diff {
+    padding: 4rem 1rem;
+    text-align: left;
+  }
+  .section-diff h2 {
+    font-size: 72px;
+    margin-bottom: 1rem;
+    margin-left: 100px;
+    margin-top: 305px;
+  }
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 96px;
+
+  }
+  .ota{
+    background: #96A9C6;
+    border-radius: 50%;
+    width: 86px;
+    height: 86px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .feature {
+    flex:250px;
+    max-width: 300px;
+  }
+  .feature h3 {
+    margin: 1rem 0 0.5rem;
+  }
+
+
+  .cta-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 104px;
+    background-color: #2D2641;
+    width: 1110px;
+    height: 250px;
+    color: white;
+    gap: ;
+    margin-left: px;
+    margin-bottom: 150px;
+  }
+  .cta-section h2 {
+    width: 475px;
+    font-size: 56px;
+    margin-bottom: 1rem;
+  }
+  .cta-section .btn {
+    background: none;
+    border: 1px solid white;
+    padding: 0.5rem 1rem;
+    color: white;
+    margin-bottom: 72px;
+
+  }
+
+  footer {
+    padding: 67px 165px;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1.5rem;
+  }
+  footer div {
+    min-width: 150px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 768px) {
+
+    .nav-right ul li button {
+        width: 100%;
+        height: 40px;
+        background: #ffffff;
+        border: 2px solid #000000;
+    }
+
+    .nav-right ul li a {
+        font-size: 10px;
+    }
+    .div{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .section-left h2 {
+        font-size: 48px;
+        text-align: center;
+    }
+    .section-left p {
+       text-align: center;
+       width: 327px;
+    }
+    .section-right img {
+       width: 375px;
+       height: 451px;
+     }
+
+     .section-diff h2 {
+        font-size: 48px;
+       
+      }
+
+      .feature {
+text-align: center;      }
+      .features {
+       text-align: center;
+      }
+      .ota{
+       margin-left: 100px;
+      }
+
+      .cta-section {
+        flex-direction: column;
+        text-align: center;
+        width: 600px;
+        
+      }
+      .cta-section h2 {
+        width: 475px;
+        font-size: 40px;
+        margin-bottom: 1rem;
+      }
+      
+
+}
+
+@media (max-width: 568px) {
+
+    ul li a {
+        display: none;
+    }
+
+    ul li button {
+        display: none;
+    }
+
+    #iconka {
+        display: block;
+    }
+    .div{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .section-left h2 {
+        font-size: 48px;
+        text-align: center;
+    }
+    .section-left p {
+       text-align: center;
+       width: 327px;
+    }
+    .section-right img {
+       width: 375px;
+       height: 451px;
+     }
+     .cta-section {
+       width: 327px;
+       font-size: 40px;
+      }
+
+      .cta-section {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        
+      }
+      .cta-section h2 {
+        width: 279px;
+        font-size: 40px;
+      }
+
+}
